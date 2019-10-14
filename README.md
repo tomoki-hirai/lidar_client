@@ -1,4 +1,4 @@
-# lidar_3x3lab
+# lidar_client
 ## raspberry piの設定
 ### screenのインストール
 - バックグラウンドで実行する用
