@@ -1043,26 +1043,26 @@ int main(int argc, const char * argv[]) {
                 _obj_send.push_back(_obj_move[0][i]);  //sendデータ作成
                 
                 //_positionに応じた処理
-                if      (_position == 1) OnPositionGloble(position_one_X, position_one_Y, _obj_send);
-                else if (_position == 2) OnPositionGloble(position_two_X, position_two_Y, _obj_send);
-                else if (_position == 3) OnPositionGloble(position_three_X, position_three_Y, _obj_send);
-                else if (_position == 4) OnPositionGloble(position_four_X, position_four_Y, _obj_send);
-                else if (_position == 5) OnPositionGloble(position_five_X, position_five_Y, _obj_send);
-                else if (_position == 6) OnPositionGloble(position_six_X, position_six_Y, _obj_send);
-                else if (_position == 7) OnPositionGloble(position_seven_X, position_seven_Y, _obj_send);
-                else if (_position == 1111) OnPositionGloble(position_kc111one_X, position_kc111one_Y, _obj_send);
-                else if (_position == 1112) OnPositionGloble(position_kc111two_X, position_kc111two_Y, _obj_send);
-                else if (_position == 2000) OnPositionGloble(position_kc111three_X, position_kc111three_Y, _obj_send);
-                else if (_position == 1113) OnPositionGloble(position_kc111four_X, position_kc111four_Y, _obj_send);
-                else if (_position == 1114) OnPositionGloble(position_kc111five_X, position_kc111five_Y, _obj_send);
-                else if (_position == 2001) OnPositionGloble(position_kc111six_X, position_kc111six_Y, _obj_send);
-                // 3x3lab
-                else if (_position == 3001) OnPositionGloble(position_3x3lab_1_X, position_3x3lab_1_Y, _obj_send);
-                else if (_position == 3002) OnPositionGloble(position_3x3lab_2_X, position_3x3lab_2_Y, _obj_send);
-                else if (_position == 3003) OnPositionGloble(position_3x3lab_3_X, position_3x3lab_3_Y, _obj_send);
-                else if (_position == 3004) OnPositionGloble(position_3x3lab_4_X, position_3x3lab_4_Y, _obj_send);
-                else if (_position == 3005) OnPositionGloble(position_3x3lab_5_X, position_3x3lab_5_Y, _obj_send);
-                else if (_position == 3006) OnPositionGloble(position_3x3lab_6_X, position_3x3lab_6_Y, _obj_send);
+                // if      (_position == 1) OnPositionGloble(position_one_X, position_one_Y, _obj_send);
+                // else if (_position == 2) OnPositionGloble(position_two_X, position_two_Y, _obj_send);
+                // else if (_position == 3) OnPositionGloble(position_three_X, position_three_Y, _obj_send);
+                // else if (_position == 4) OnPositionGloble(position_four_X, position_four_Y, _obj_send);
+                // else if (_position == 5) OnPositionGloble(position_five_X, position_five_Y, _obj_send);
+                // else if (_position == 6) OnPositionGloble(position_six_X, position_six_Y, _obj_send);
+                // else if (_position == 7) OnPositionGloble(position_seven_X, position_seven_Y, _obj_send);
+                // else if (_position == 1111) OnPositionGloble(position_kc111one_X, position_kc111one_Y, _obj_send);
+                // else if (_position == 1112) OnPositionGloble(position_kc111two_X, position_kc111two_Y, _obj_send);
+                // else if (_position == 2000) OnPositionGloble(position_kc111three_X, position_kc111three_Y, _obj_send);
+                // else if (_position == 1113) OnPositionGloble(position_kc111four_X, position_kc111four_Y, _obj_send);
+                // else if (_position == 1114) OnPositionGloble(position_kc111five_X, position_kc111five_Y, _obj_send);
+                // else if (_position == 2001) OnPositionGloble(position_kc111six_X, position_kc111six_Y, _obj_send);
+                // // 3x3lab
+                // else if (_position == 3001) OnPositionGloble(position_3x3lab_1_X, position_3x3lab_1_Y, _obj_send);
+                // else if (_position == 3002) OnPositionGloble(position_3x3lab_2_X, position_3x3lab_2_Y, _obj_send);
+                // else if (_position == 3003) OnPositionGloble(position_3x3lab_3_X, position_3x3lab_3_Y, _obj_send);
+                // else if (_position == 3004) OnPositionGloble(position_3x3lab_4_X, position_3x3lab_4_Y, _obj_send);
+                // else if (_position == 3005) OnPositionGloble(position_3x3lab_5_X, position_3x3lab_5_Y, _obj_send);
+                // else if (_position == 3006) OnPositionGloble(position_3x3lab_6_X, position_3x3lab_6_Y, _obj_send);
                 
                 //printf("番号：%d 角度：%03.2f 距離：%08.2f\n", _obj_send[i].uniqueid , _obj_send[i].angle , _obj_send[i].dist);
 
