@@ -654,7 +654,7 @@ int main(int argc, const char * argv[]) {
     
     addr.sin_family = AF_INET;       
     addr.sin_port = htons(34567);
-    addr.sin_addr.s_addr = inet_addr("172.20.11.238");
+    addr.sin_addr.s_addr = inet_addr("192.168.1.211");
     printf("before co\n");
     connect(sockfd,(struct sockaddr*)&addr,sizeof(struct sockaddr_in));
     printf("after co\n");
@@ -871,7 +871,7 @@ int main(int argc, const char * argv[]) {
             for (int j = (int)_obj_move[0].size()-1; j >= 0; --j) {
                 try {
                     //静止物体キル
-                    if (_obj_move[0].at(j).cnt < -50) {
+                    if (_obj_move[0].at(j).cnt < -10) {
                         std::swap(_obj_move[0][j], _obj_move[0].back());
                         _obj_move[0].pop_back();
                     }
