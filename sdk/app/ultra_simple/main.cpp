@@ -654,7 +654,7 @@ int main(int argc, const char * argv[]) {
     
     addr.sin_family = AF_INET;       
     addr.sin_port = htons(34567);
-    addr.sin_addr.s_addr = inet_addr("192.168.1.211");
+    addr.sin_addr.s_addr = inet_addr("192.168.11.10");
     printf("before co\n");
     connect(sockfd,(struct sockaddr*)&addr,sizeof(struct sockaddr_in));
     printf("after co\n");
